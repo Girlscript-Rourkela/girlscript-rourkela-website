@@ -10,19 +10,15 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles((theme) => ({ 
   root: {
-    display: 'flex',
     marginTop:'2%',
-    flexDirection:'column',
-  },
-  details: {
-    display: 'flex',
-    flexDirection: 'column',
-  },
-  content: {
-    flex: '1 0 auto',
+    height: 150,
+    width: 300
+    
   },
   cover: {
-    width: 60,
+    width: 65,
+    height:60,
+    margin: 'auto'
   }
 }));
 
@@ -44,7 +40,7 @@ export default function MediaControlCard(props) {
           title="Contemplative Reptile"
         />
         <CardContent className={classes.content}>
-          <Typography variant="h5" component="h5">
+          <Typography variant="h6" component="h6" >
             {props.title}
           </Typography>
           <Typography variant="subtitle1" color="textSecondary" component="p">
