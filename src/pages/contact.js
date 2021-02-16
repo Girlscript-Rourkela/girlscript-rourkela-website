@@ -20,8 +20,6 @@ const Contact = () => {
       }}
     >
       <h1>Gotta Query? We are here</h1>
-      {"\n"}
-      <br />
       <LocationOnIcon />
       <Button variant="contained" color="secondary">
         Drop us a mail !
