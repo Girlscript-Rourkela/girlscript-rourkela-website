@@ -7,7 +7,8 @@ const About = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '90vh'
+        height: '90vh',
+        backgroundColor: '#f7cac9',
       }}
     >
       <h1>About Us</h1>

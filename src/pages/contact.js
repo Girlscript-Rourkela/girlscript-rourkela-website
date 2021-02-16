@@ -7,7 +7,8 @@ const Contact = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '90vh'
+        height: '90vh',
+        backgroundColor: '#ffd4a9',
       }}
     >
       <h1>Contact Us</h1>

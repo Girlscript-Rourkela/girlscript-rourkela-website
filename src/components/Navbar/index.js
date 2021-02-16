@@ -4,9 +4,8 @@ import {
   NavLink,
   Bars,
   NavMenu,
-  NavBtn,
-  NavBtnLink
 } from './NavbarElements';
+import Button from '@material-ui/core/Button';
 
 const Navbar = () => {
   return (
@@ -29,10 +28,10 @@ const Navbar = () => {
           <NavLink to='/contact-us' activeStyle>
             Contact Us
           </NavLink>
-        </NavMenu>
-        <NavBtn>
-          <NavBtnLink to='/signin'>Join Us</NavBtnLink>
-        </NavBtn>
+        </NavMenu>  
+        <Button variant="contained" href="https://www.girlscript.tech/registration" size="sm" color="secondary" style={{backgroundColor:'#fa691d',height:'80%',marginTop:'0.5%'}}>
+        Join Us
+      </Button>
       </Nav>
     </>
   );

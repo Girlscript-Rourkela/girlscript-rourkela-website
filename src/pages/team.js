@@ -7,7 +7,8 @@ const About = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '90vh'
+        height: '90vh',
+        backgroundColor: '#fff3e2',
       }}
     >
       <h1>Teams</h1>
