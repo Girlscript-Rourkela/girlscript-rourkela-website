@@ -1,4 +1,5 @@
 import React from 'react';
+import Photo from '../assets/events-photo.png';
 
 const About = () => {
   return (
@@ -12,6 +13,7 @@ const About = () => {
       }}
     >
       <h1>Events</h1>
+      <img src={Photo} alt="events photo" className="img vert-move" />
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Photo from '../assets/contact-photo.png';
 const Contact = () => {
   return (
     <div
@@ -12,6 +12,7 @@ const Contact = () => {
       }}
     >
       <h1>Contact Us</h1>
+      <img src={Photo} alt="contact us vector" className="img vert-move" />
     </div>
   );
 };

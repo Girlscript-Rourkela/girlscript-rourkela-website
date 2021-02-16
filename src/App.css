@@ -6,3 +6,36 @@
   margin: 0;
   padding: 0;
 }
+
+.img {
+  height: 90%;
+}
+
+img.vert-move {
+  -webkit-animation: mover 1s ease-in-out infinite alternate-reverse;
+  animation: mover 1s ease-in-out infinite alternate-reverse both;
+}
+img.vert-move {
+  -webkit-animation: mover 1s ease-in-out infinite alternate-reverse both;
+  animation: mover 1s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateX(0);
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateX(-20px);
+    transform: translateY(-20px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateX(0);
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateX(-20px);
+    transform: translateY(-20px);
+  }
+}

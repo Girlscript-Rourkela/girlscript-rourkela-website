@@ -1,4 +1,6 @@
 import React from 'react';
+import Photo from '../assets/home-photo.png';
+import '.././App.css';
 
 const Home = () => {
   return (
@@ -12,6 +14,7 @@ const Home = () => {
       }}
     >
       <h1>Home</h1>
+      <img src={Photo} alt="events photo" className="img vert-move" />
     </div>
   );
 };
