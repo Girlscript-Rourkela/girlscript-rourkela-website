@@ -29,7 +29,7 @@ const Navbar = () => {
             Contact Us
           </NavLink>
         </NavMenu>  
-        <Button variant="contained" href="https://www.girlscript.tech/registration" size="sm" color="secondary" style={{backgroundColor:'#fa691d',height:'80%',marginTop:'0.5%'}}>
+        <Button variant="contained" href="https://www.girlscript.tech/registration" size="sm" color="secondary" style={{backgroundColor:'#fa691d',height:'80%',marginTop:'1%'}}>
         Join Us
       </Button>
       </Nav>
