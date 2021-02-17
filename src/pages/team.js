@@ -38,7 +38,7 @@ const About = () => {
                 <div style={{
                 display:'flex',
                 flexDirection:'row',
-                justifyContent:'center'
+                justifyContent:'center',
                 }}>
                 <TeamCard name="Aniket Pal" title="Chapter Lead" image={Photo8} />
                 </div>
