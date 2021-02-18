@@ -84,7 +84,7 @@ const About = () => {
                 }}>
                 <TeamCard name="Raghav Bajaj" title="Design Team" image={Photo11} />
                 <TeamCard name="Shantanu" title="Design Team" image={Photo3} />
-                <TeamCard name="Sai Ashish" title="Design Team" image={Photo12} />
+                <TeamCard name="Sai Ashish" title="Design Team" image={Photo3} />
                 <TeamCard name="jon_snow" title="Design Team" image={Photo5} />
                 </div>
             </div>
