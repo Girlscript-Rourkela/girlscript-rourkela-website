@@ -1,6 +1,7 @@
 import React from 'react';
 import Photo from '../assets/events-photo.png';
 import EventCard from '../components/eventCard';
+
 const About = () => {
   return (
     <div
@@ -8,19 +9,17 @@ const About = () => {
         display: 'flex',
         //justifyContent: 'center',
         //alignItems: 'center',
-        height: '90vh',
+        height: '100%',
         backgroundColor: '#ffd4a9',
       }}
     > 
-<div>
-
-
+    <div>
     <div class="flex-grid-2" style={{
       display: 'flex',
       flexFlow: 'row',
       margin:'50px',
-      marginTop:'150px',
-      marginLeft:'100px'
+      marginTop:'100px',
+      marginLeft:'50px'
     }}>
 			<div class="brand-col" style={{
         marginLeft:'20px',
@@ -40,7 +39,7 @@ const About = () => {
       display: 'flex',
       flexFlow: 'row',
       margin: '50px',
-      marginLeft:'100px'
+      marginLeft:'50px'
     }} >
 			<div class="brand-col" style={{
         marginLeft:'20px',
@@ -60,7 +59,7 @@ const About = () => {
       display: 'flex',
       flexFlow: 'row',
       margin:'50px',
-      marginLeft:'100px'
+      marginLeft:'50px'
     }} >
 			<div class="brand-col" style={{
         marginLeft:'20px',
@@ -78,9 +77,12 @@ const About = () => {
     </div>
 
     <img src={Photo} alt="events photo" className="img vert-move" style={{
-      marginLeft:'15%',
-      
-    }} />
+      marginLeft:'-4%',
+      marginTop: '5%',
+      height: '60%',
+      width: '45%'
+    }  
+    } />
     </div>
   );
 };
